@@ -5,6 +5,8 @@ import Stats from '@/components/home/stats'
 import Testimonials from '@/components/home/testimonials'
 import CallToAction from '@/components/home/call-to-action'
 import BlogPreview from '@/components/home/blog-preview'
+import Certifications from '@/components/home/certifications'
+import WhyChooseUs from '@/components/home/why-choose-us'
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
       <Hero />
       <Services />
       <About />
+      <WhyChooseUs />
       <Stats />
+      <Certifications />
       <Testimonials />
       <BlogPreview />
       <CallToAction />
